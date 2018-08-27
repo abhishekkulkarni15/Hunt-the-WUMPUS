@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WUMPUS</title>
+</head>
+<body>
+	<h1>Welcome! Hunt the WUMPUS.</h1>
+	<div class="wrapper">
+		<!-- Game grid  -->
+		<div id="gameGrid">
+			<div id="a00"></div>
+			<div id="a01"></div>
+			<div id="a02"></div>
+			<div id="a03"></div>
+			<div id="a04"></div>
+			
+			<div id="a10"></div>
+			<div id="a11"></div>
+			<div id="a12"></div>
+			<div id="a13"></div>
+			<div id="a14"></div>
+			
+			<div id="a20"></div>
+			<div id="a21"></div>
+			<div id="a22"></div>
+			<div id="a23"></div>
+			<div id="a24"></div>
+			
+			<div id="a30"></div>
+			<div id="a31"></div>
+			<div id="a32"></div>
+			<div id="a33"></div>
+			<div id="a34"></div>
+			
+			<div id="a40"></div>
+			<div id="a41"></div>
+			<div id="a42"></div>
+			<div id="a43"></div>
+			<div id="a44"></div>
+		</div>
+		<div>
+			Rules (for this version)<br><br>
+			There are 2 hazards:<br>
+			1. A bottomless pit (you will feel a breeze nearby).<br>
+			2. A fearsome, hungry, and unbathed wumpus (you will smell it nearby).<br>
+			You have 2 wumpus-piercing arrows.<br>
+		</div>
+		<!-- Display current status -->
+		<div id="status">
+		</div>
+		<!-- Controls -->
+		<div id="controls">
+			<div id="move">
+				Move<br><br>
+				<input type="button" class="button" id="moveUpButton" value="Up">
+				<br>
+				<input type="button" class="button" id="moveLeftButton" value="Left">
+				<input type="button" class="button" id="moveRightButton" value="Right">
+				<br>
+				<input type="button" class="button" id="moveDownButton" value="Down">
+			</div>
+			<div id="shoot">
+				Shoot<br><br>
+				<input type="button" class="button" id="shootUpButton" value="Up"><br>
+				<input type="button" class="button" id="shootLeftButton" value="Left">
+				<input type="button" class="button" id="shootRightButton" value="Right"><br>
+				<input type="button" class="button" id="shootDownButton" value="Down">
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</body>
+</html>
